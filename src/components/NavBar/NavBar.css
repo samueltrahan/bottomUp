@@ -1,11 +1,48 @@
 .footer-nav-bar {
-    background-color: aquamarine;
+    background-color: rgb(101, 101, 182);
     height: 120px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     position: absolute;
     bottom: 0;
     right: 0;
-    left: 0
+    left: 0;
 }
 
+.start {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.bottom-img {
+    width: 120px;
+    filter: drop-shadow(3px 6px 10px 3px black);
+}
+
+.logo {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link {
+    grid-column: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.samuel {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+.samuel:hover {
+    color: aquamarine;
+    font-size: 15px;
+}
